@@ -32,12 +32,12 @@
 // # Includes:
 // #
 // # You will need to add the following libraries to your Arduino IDE to use the project:
-// # - Adafruit NeoPixel      // by Adafruit:                     https://github.com/adafruit/Adafruit_NeoPixel
-// # - AsyncTCP               // by me-no-dev:                    https://github.com/me-no-dev/AsyncTCP
-// # - ESPAsyncWebServer      // by me-no-dev:                    https://github.com/me-no-dev/ESPAsyncWebServer
-// # - ESPUI                  // by s00500:                       https://github.com/s00500/ESPUI
-// # - ArduinoJson            // by bblanchon:                    https://github.com/bblanchon/ArduinoJson
-// # - LITTLEFS               // by lorol:                        https://github.com/lorol/LITTLEFS
+// # - Adafruit NeoPixel      // by Adafruit:                     https://github.com/adafruit/Adafruit_NeoPixel   = V1.12.3 
+// # - AsyncTCP               // by me-no-dev:                    https://github.com/me-no-dev/AsyncTCP           = V3.2.12
+// # - ESPAsyncWebServer      // by me-no-dev:                    https://github.com/me-no-dev/ESPAsyncWebServer  = V3.2.22
+// # - ESPUI                  // by s00500:                       https://github.com/s00500/ESPUI                 = V2.2.3 !!!
+// # - ArduinoJson            // by bblanchon:                    https://github.com/bblanchon/ArduinoJson        = First 6.21.5 then V7.2.0 !!!
+// # - LITTLEFS               // by lorol:                        https://github.com/lorol/LITTLEFS               = 1.06 
 // #
 // ###########################################################################################################################################
 #include <WiFi.h>               // Used to connect the ESP32 to your WiFi
@@ -57,7 +57,7 @@
 // ###########################################################################################################################################
 // # Version number of the code:
 // ###########################################################################################################################################
-const char* CLOCK_VERSION = "V1.0.0";
+const char* CLOCK_VERSION = "V1.1.0";
 
 
 // ###########################################################################################################################################

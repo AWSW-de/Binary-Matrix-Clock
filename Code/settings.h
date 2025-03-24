@@ -77,7 +77,7 @@ const char* NTPserver = "pool.ntp.org";               // Time server address. Ch
 // ###########################################################################################################################################
 // # Test functions:
 // ###########################################################################################################################################
-int debugtexts = 1;        // Show more debug information in serial monitor
+int debugtexts = 0;        // Show more debug information in serial monitor
 int testTime = 0;          // LED time text output test
 int testDayNightmode = 0;  // Test the day/night mode settings
 // Test a special time:
